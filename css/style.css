@@ -1,0 +1,10 @@
+:root{
+    --my-dark-color:#2c3e50;
+    --my-lighy-color:#1abc9c;
+}
+.bg-my-dark{
+    background-color: var(--my-dark-color);
+}
+#jumbotrone{
+   background-color: var(--my-lighy-color); 
+}
