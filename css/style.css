@@ -11,3 +11,18 @@
 #about, #about{
     background-color: var(--my-lighy-color);
 }
+.decorative-element-container::before, .decorative-element-container::after{
+    content: "";
+    height: 4px;
+    width: 12%;
+    display: inline-block;
+    border-radius: 2px;
+    background-color: white;
+    vertical-align: middle;
+}
+.decorative-element-container>i{
+    vertical-align: middle;
+}
+.decorative-element-container.dark-dashes::before, .decorative-element-container.dark-dashes::after{
+    background-color: var(--my-dark-color);
+}

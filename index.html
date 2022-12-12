@@ -10,15 +10,29 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="bg-my-dark text-light py-4">
+  <header class="bg-my-dark  py-4 position-sticky top-0">
     <div class="container-sm container-md container-lg ">
-      <div class="row">
-        <div class="col ">
-          START BOOTSTRAP
+      <nav class="navbar navbar-dark navbar-expand-lg text-uppercase">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#">START BOOTSTRAP</a>
+          <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col d-flex justify-content-end">
-          MENU
-        </div>
+      </nav>
   </div>
   </header>
   <main>
@@ -26,12 +40,13 @@
       <div class="container">
         <div class="row text-center justify-content-center">
           <div class="col-12 col-md-6 col-lg-4 ">
-            <div class="my-image-container">
-              <img class="img-fluid" src="img/avatar.svg" alt="">
-            </div>
+            <img class="img-fluid" src="img/avatar.svg" alt="">
           </div>
           <h1 class=" py-4 text-light">START BOOTSTRAP</h1>
-          <h5 class=" text-light">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h2>
+          <div class="decorative-element-container fs-1">
+            <i class="bi bi-star-fill text-light"></i>
+          </div>
+          <h5 class=" text-light py-4">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h2>
         </div>
       </div>
     </section>
@@ -40,6 +55,9 @@
         <div class="row ">
           <div class="col-12 text-center p-5">
             <h1>PORTFOLIO</h1>
+            <div class="decorative-element-container dark-dashes fs-1">
+              <i class="bi bi-star-fill"></i>
+            </div>
           </div>
         </div>
 
@@ -47,32 +65,32 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="my-image-container text-light bg-my-dark text-center ">
+            <div class="my-image-container text-light bg-my-dark text-center rounded-3 overflow-hidden">
               <img class="img-fluid" src="img/cabin.png" alt="">
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="my-image-container text-light bg-my-dark text-center ">
+            <div class="my-image-container text-light bg-my-dark text-center rounded-3 overflow-hidden">
               <img class="img-fluid" src="img/cake.png" alt="">
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="my-image-container text-light bg-my-dark text-center ">
+            <div class="my-image-container text-light bg-my-dark text-center rounded-3 overflow-hidden">
               <img class="img-fluid" src="img/circus.png" alt="">
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="my-image-container text-light bg-my-dark text-center ">
+            <div class="my-image-container text-light bg-my-dark text-center rounded-3 overflow-hidden">
               <img class="img-fluid" src="img/game.png" alt="">
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="my-image-container text-light bg-my-dark text-center ">
+            <div class="my-image-container text-light bg-my-dark text-center rounded-3 overflow-hidden">
               <img class="img-fluid" src="img/safe.png" alt="">
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="my-image-container text-light bg-my-dark text-center ">
+            <div class="my-image-container text-light bg-my-dark text-center rounded-3 overflow-hidden">
               <img class="img-fluid" src="img/submarine.png" alt="">
             </div>
         </div>
@@ -104,6 +122,44 @@
           </div>
 
       </div>
+    </section>
+    <section id="contact">
+      <div class="container py-5">
+        <div class="row text-center">
+          <div class="col-12">
+            <h1>CONTACT ME</h1>
+            <div class="decorative-element-container dark-dashes fs-1">
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
+        </div>
+        <div class="py-5 px-5">
+          <div class="row">
+            <div class="col-12">
+              <form action="">
+                <div class="mb-3">
+                  <input type="text" placeholder="Home" class="form-control my-input-style">
+                </div>
+                <div class="mb-3">
+                  <input type="text" placeholder="Home" class="form-control my-input-style">
+                </div>
+                <div class="mb-3">
+                  <input type="text" placeholder="Home" class="form-control my-input-style">
+                </div>
+                <div class="mb-3">
+                  <textarea rows="6" placeholder="Home" class="form-control my-input-style"></textarea>
+                </div>
+                <button type="submit" class="btn btn-my-light px-4 py-3">
+
+                </button>
+
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
     </section>
   </main>
 </body>
