@@ -1,15 +1,30 @@
 :root{
-    --my-dark-color:#2c3e50;
-    --my-lighy-color:#1abc9c;
+    --my-darkest-color:#2c3e50;
+    --my-ligthy-color:#1abc9c;
+    --my-dark-color: #3a546d;
+}
+.bg-my-darkest{
+    background-color: var(--my-darkest-color);
 }
 .bg-my-dark{
     background-color: var(--my-dark-color);
 }
 #jumbotrone{
-   background-color: var(--my-lighy-color); 
+   background-color: var(--my-ligthy-color); 
+}
+.my-lighty-color{
+    color: var(--my-ligthy-color);
+    text-decoration: none;
+}
+.btn-my-light, .btn-my-light:hover{
+    background-color: var(--my-ligthy-color);
 }
 #about, #about{
-    background-color: var(--my-lighy-color);
+    background-color: var(--my-ligthy-color);
+}
+.my-circle{
+    border-radius: 50%;
+    border: 1px solid white;
 }
 .decorative-element-container::before, .decorative-element-container::after{
     content: "";
